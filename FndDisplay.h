@@ -6,7 +6,9 @@ public:
 	void start();
 	void stop();
 	bool writeByte(uint8_t b);
-	int writeNumber(int number);
+  void init();
+	int writeNumber(int number,bool colon=false);
+  int writeNumber_f(int number);
 private:
 	uint8_t m_clk;
 	uint8_t m_dio;
