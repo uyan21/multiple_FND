@@ -2,8 +2,8 @@
 #include <WiFiUdp.h>
 #include "FndDisplay.h"
 
-const char* ssid     = "MESH";
-const char* password = "mesh2704";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
 
 const char * udpAddress = "192.168.0.87";
 const int udpPort = 44444;
